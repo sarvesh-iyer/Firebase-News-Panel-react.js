@@ -37,7 +37,7 @@ export const Sidebar = ({ isOpen, setIsOpen }) => {
             }}
           >
             <span>
-              <img src={home} />
+              <img src={home} alt="home icon" />
             </span>
             Home
           </p>
@@ -51,7 +51,7 @@ export const Sidebar = ({ isOpen, setIsOpen }) => {
             }}
           >
             <span>
-              <img src={view} />
+              <img src={view} alt="view icon" />
             </span>
             View News
           </p>
@@ -65,7 +65,7 @@ export const Sidebar = ({ isOpen, setIsOpen }) => {
             }}
           >
             <span>
-              <img src={add} />
+              <img src={add} alt="add icon" />
             </span>
             Add News
           </p>

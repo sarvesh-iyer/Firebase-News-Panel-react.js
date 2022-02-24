@@ -11,7 +11,7 @@ export const Home = ({ setIsOpen }) => {
     >
       <div>
         <h1>Welcome to News Admin Panel</h1>
-        <img src={news_img} />
+        <img src={news_img} alt="animated news globe" />
       </div>
     </div>
   );

@@ -1,7 +1,7 @@
 import { React, useState, useEffect } from "react";
 import noimage from "./../images/No_image.jpg";
 import fireDB from "../../firebase";
-import { cssTransition, toast } from "react-toastify";
+import { toast } from "react-toastify";
 
 export const EditNews = ({ setShowModal, newsInfo }) => {
   const [editedNews, setEditedNews] = useState(newsInfo);

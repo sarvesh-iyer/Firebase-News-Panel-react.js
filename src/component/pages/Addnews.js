@@ -1,4 +1,4 @@
-import { React, useState, useEffect, useRef } from "react";
+import { React, useState, useEffect } from "react";
 import fireDB from "../../firebase";
 import noimage from "./../images/No_image.jpg";
 import "./../styles/Addnews.css";
