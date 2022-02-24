@@ -1,0 +1,20 @@
+.App {
+  background-color: #282c34;
+  min-height: 100vh;
+  color: white;
+  display: flex;
+}
+.menu-icon {
+  display: none;
+}
+
+@media screen and (max-width: 800px) {
+  .menu-icon {
+    cursor: pointer;
+    display: block;
+    position: fixed;
+    left: 15px;
+    z-index: 100;
+    top: 23px;
+  }
+}
